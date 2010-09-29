@@ -1,6 +1,6 @@
-#include<>[Dstdio.h>[C[C[D[D
+#include<stdio.h>
 int main()
 {
-	printf()[D""[DHello,world!\n");
+	printf("Hello,world!\n");
 	return 0;
 }
