@@ -50,6 +50,7 @@ int main(int argc, char *argv[])
 			else
 			{
 				free (numbers);
+				fclose(in);
 				alert("Error (re)allocating memory","");
 			}
 		}
