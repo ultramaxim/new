@@ -37,6 +37,10 @@ read_ok:
 	cli
 	hlt
 	
+GDTptr:
+  dw GDTlen - 1
+  dd GDT
+  
 GDT:
   db 8 dup (0)
   db 0xFF, 0xFF, 0x00, 0x00, 0x00, 10011000b, 00000000b, 0x00
